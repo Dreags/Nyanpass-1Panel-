@@ -1,7 +1,4 @@
 # 这是一篇Nyanpass转发面板使用1Panel搭建的教程
-移动云购买认准 丢总 https://t.me/DiuDiu777
-
-国内外服务器合租频道 https://t.me/serversgo
 
 ## **第一步** 安装1Panel  
 >以下是debian 安装命令  
@@ -41,7 +38,7 @@ cd /opt/1panel/apps/openresty/openresty/www/sites/nyanpass/index
 
 >2.输入命令拉取最新版Nyanpass
 ```
-bash <(curl -fLSs https://api.candypath.eu.org/download/download.sh) https://api.candypath.eu.org rel_backend_linux_amd64
+bash <(curl -fLSs https://dl.nyafw.com/download/download.sh) https://dl.nyafw.com rel_backend_linux_amd64
 ```
 面板进入网站目录创建两个文件
 
@@ -134,7 +131,7 @@ docker compose down -t1
 ```
 rm -rf public
 rm -f rel_backend
-bash <(curl -fLSs https://api.candypath.eu.org/download/download.sh) https://api.candypath.eu.org rel_backend_linux_amd64
+bash <(curl -fLSs https://dl.nyafw.com/download/download.sh) https://dl.nyafw.com rel_backend_linux_amd64
 ```
 >4.启动
 ```
